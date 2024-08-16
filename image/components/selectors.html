@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+
+        .container{
+            height: 100vh;
+            width:100%;
+            border: 2px solid green;
+
+        }
+        input[type='text']{
+            padding: 20px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+        input[type='password']{
+          
+            font-weight: bold;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+        input[type='email']{
+         
+            font-weight: bold;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+        input[type='submit']{
+         
+         font-weight: bold;
+         border: 2px solid black;
+         margin-bottom: 10px;
+     }
+        .form{
+            width:50px;
+            
+            margin: auto;
+            display: block;
+        }
+        a[target]{
+            width:80px;
+            display: block;
+            margin: auto;
+            color: rgb(141, 66, 211);
+        }
+        li:nth-child(3){
+            color:red;
+        }
+        li:nth-child(2n+0){
+            color:rgb(53, 141, 18);
+        }
+        </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1><a href="http://google.com" target="_blank">Go to Google</a></h1>
+
+    <form action="" class="form">
+        <input type="text" placeholder="Enter your Name">
+        <input type="password" placeholder="Enter your Password">
+        <input type="email" placeholder="Enter your E-mail">
+        <input type="submit" placeholder="Submit Form>"
+    </form>
+<ul>
+    <li class="item" id="item1">Item1</li>
+    <li class="item" id="item2">Item2</li>
+    <li class="item" id="item3">Item3</li>
+    <li class="item" id="item4">Item4</li>
+    <li class="item" id="item5">Item5</li>
+    </ul>
+
+  </div>
+    
+</body>
+</html>

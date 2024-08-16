@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media queries</title>
+    <style>
+      .container {
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+      }
+      .c1 {
+        padding-top: 50px;
+        width: 1400px;
+        height: 100px;
+        text-align: center;
+        font-size: 50px;
+    
+        display: none;
+        /*width:1400px;
+    height: 100px;
+    display:none; */
+      }
+      #p1 {
+        font-size: 40px;
+        background-color: aqua;
+        color: black;
+        text-align: center;
+      }
+      #p2 {
+        font-size:25px;
+        background-color: rgb(54, 173, 113);
+        color: black;
+        text-align: center;
+      }
+      #p3 {
+        font-size: 30px;
+        background-color: rgb(53, 163, 26);
+        color: black;
+        text-align: center;
+      }
+      #p4 {
+        font-size: 20px;
+        background-color: rgb(231, 162, 34);
+        color: black;
+        text-align: center;
+      }
+      @media  only screen and (max-width: 375px){
+        #p1{
+          display: block;   
+        }
+      } 
+      @media only screen and (max-width: 1024px) and (min-width: 376px){
+        #p2{
+          display: block;     
+        }
+      } 
+      @media only screen and (max-width: 1200px)and (min-width: 1025px){
+        #p3{
+          display: block;
+        }
+      } 
+      @media only screen  and (max-width: 1400px)and (min-width: 1201px){
+        #p4{
+          display: block;
+        }
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="c1" id="p1">i-phone screen</div>
+      <div class="c1" id="p2"> iPad pro screen</div>
+      <div class="c1" id="p3">Nest hub max screen</div>
+      <div class="c1" id="p4">Desktop Screen</div>
+    </div>
+  </body>
+</html>

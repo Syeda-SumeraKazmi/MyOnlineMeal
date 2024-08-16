@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables & Custom properties</title>
+    <style>
+    html{
+      font: 10px;
+    }
+        :root{
+            --primary-color: rgb(80, 167, 80);
+           
+
+        }
+        .container{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: var(--primary-color);
+            height: 100vh;
+            width:100%;
+         
+
+        }
+        .box{
+            padding: 10px 20px;
+            margin:2px 3px;
+            border: 2px solid rgb(0, 13, 128);
+            background-color: var(--primary-color) ;
+            width:300px;
+            height:200px;
+           
+            box-shadow: 2px 3px 4px 6px rgb(139, 155, 69) ;
+            font-size: 1rem;
+        }
+        .box h2{
+            text-shadow: 2px 2px  2px white;
+        }
+        </style>
+</head>
+<body>
+   <div class="container">
+ <div class="box"><h2>Box1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis assumenda deserunt </p></div>
+ <div class="box"><h2>Box2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis assumenda deserunt </p></div>
+ <div class="box"><h2>Box3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis assumenda deserunt </p></div>
+  </div>  
+</body>
+</html>

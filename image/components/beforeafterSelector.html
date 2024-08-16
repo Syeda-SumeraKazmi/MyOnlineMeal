@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo Selector</title>
+    <style>
+        header{
+            background: url('https://source.unsplash.com/random')
+             no-repeat center center/cover;
+            display:flex;
+            flex-direction:column;
+            z-index: 10;
+            height: 100vh;
+            position: relative;
+            width: 100%; 
+           
+        }
+        body{
+            background: rgb(20, 20, 20);
+            color: rgb(243, 240, 240);
+            margin:0;
+            padding: 0;
+        }
+        section{
+            text-align: center;
+           
+            justify-content: center;
+            width: 90%;
+            margin-top: 60px;
+           margin-left: 70px;
+            
+
+        }
+        .navigation {
+            
+            display: flex;
+           
+        }
+        li {
+            list-style: none;
+            padding: 34px 24px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">AboutUs</li>
+                <li class="item">Services</li>
+                <li class="item">ContactUs</li>
+            </ul>
+         </nav>
+         <section>
+            <h1>Welcome to the world of Technology </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis nostrum fuga consequuntur, aspernatur nam incidunt nesciunt atque delectus reiciendis quae inventore error porro. Deleniti, eius ad ex iusto commodi exercitationem at repudiandae beatae voluptates et quod, alias voluptate doloremque!</p>
+         </section>
+
+    </header> 
+    
+</body>
+</html>
