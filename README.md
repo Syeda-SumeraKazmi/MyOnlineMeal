@@ -6,7 +6,8 @@ Intuitive Design: The website boasts a straightforward and easy-to-navigate inte
 Meal Categories: The site organizes meals into various categories, making it simple for users to explore different cuisines and meal options.
 Responsive Layout: Designed with responsiveness in mind, MyOnlineMeal ensures a consistent experience across desktops, tablets, and smartphones.
 Clean and Modern Aesthetics: The website’s layout is minimalistic yet visually appealing, with carefully chosen color schemes and typography to enhance the overall user experience.
-Please note: This is just a demo website created to practice HTML and CSS.
+
+Please note: This is just a demo website created to practice HTML and CSS. 
 
 MyOnlineMeal is the perfect platform for customers who value convenience and simplicity in online meal ordering. The project is a testament to the power of HTML and CSS in creating functional and beautiful web pages.
 
